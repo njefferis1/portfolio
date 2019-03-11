@@ -1,4 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400|Poppins:400');
+
+html {font-size: 16px;}
+
+p {margin-bottom: 1.25em;}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209em;
+}
+
+h2 {font-size: 3em;}
+
+h3 {font-size: 2.369em;}
+
+h4 {font-size: 1.777em;}
+
+h5 {font-size: 1.333em;}
+
+small, .text_small {font-size: 0.75em;}
+
+/* body stuff */
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header stuff */
 header{
     height: 600px;
     background: #353541;
+    color: #fff;
+    text-align: center;
 }
+.f-left{
+    float: left;
+    font-size: 2rem;
+    margin: 20px 0 0 20px;
+}
+.f-right{
+    float: right;
+    text-align: center;
+    margin: 20px 20px 0 0 ;
+}
+.go-up{
+    margin-top: -20px;
+}
+.selfie{
+    padding-top: 90px;
+}
+.red-line{
+    background: #fb6470;
+    height: 3px;
+    width: 80px;
+    margin-left: calc(50% - 40px);
+    margin-bottom: 2rem;
+}
+.button{
+    border-radius: 5px;
+}
+.red{
+    padding: 8px 40px 10px 40px;
+    background: #fb6470;
+    color: #fff;
+}
+.blue{
+    padding: 8px 60px 10px 60px;
+    background: #32bec7;
+    color: #fff;
+}
+
+/* main */
+main{
+    text-align: center;
+}
+
+/* Skills */
+.skills{
+    width: 230px;
+    height: 230px;
+    margin-bottom: 25px;
+}
+
+/* Find */

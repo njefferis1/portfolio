@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 520 520" style="enable-background:new 0 0 520 520;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#E6E6E6;stroke-width:100;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FF1D25;stroke-width:100;stroke-miterlimit:10;}
+	.st2{fill:#B3B3B3;}
+	.st3{font-family:'DINCondensed-Bold';}
+	.st4{font-size:48px;}
+	.st5{letter-spacing:-1;}
+	.st6{fill:none;stroke:#FF1D25;stroke-width:3;stroke-miterlimit:10;}
+	.st7{fill:#4D4D4D;}
+	.st8{font-size:248px;}
+	.st9{letter-spacing:-2;}
+</style>
+<g id="background">
+	<circle class="st0" cx="260" cy="260" r="205"/>
+</g>
+<g id="front">
+	<path class="st1" d="M260,55c113.2,0,205,91.8,205,205s-91.8,205-205,205S55,373.2,55,260c0-82.9,49.2-154.3,120-186.6"/>
+</g>
+<g id="text">
+	<text transform="matrix(1 0 0 1 129.9929 155.2485)" class="st2 st3 st4 st5">Development</text>
+	<line id="line_1_" class="st6" x1="218" y1="178.5" x2="302" y2="178.5"/>
+	<text transform="matrix(1 0 0 1 137.2253 375.9561)" class="st7 st3 st8 st9">95</text>
+</g>
+</svg>
