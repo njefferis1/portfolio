@@ -26,6 +26,11 @@ h5 {font-size: 1.333em;}
 
 small, .text_small {font-size: 0.75em;}
 
+/* link shit */
+a:hover{
+    color: #fff;
+}
+
 /* body stuff */
 body{
     max-width: 1200px;
@@ -54,6 +59,8 @@ header{
 }
 .selfie{
     padding-top: 90px;
+    margin-bottom: 20px;
+    width: 100px;
 }
 .red-line{
     background: #fb6470;
@@ -66,12 +73,12 @@ header{
     border-radius: 5px;
 }
 .red{
-    padding: 8px 40px 10px 40px;
+    padding: 8px 60px 10px 60px;
     background: #fb6470;
     color: #fff;
 }
 .blue{
-    padding: 8px 60px 10px 60px;
+    padding: 8px 80px 10px 80px;
     background: #32bec7;
     color: #fff;
 }
@@ -89,3 +96,121 @@ main{
 }
 
 /* Find */
+.icons img{
+    width: 70px;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icons div{
+    flex: 33%;
+}
+.codepen,
+.twitter{
+    flex: 50%;
+}
+.codepen{
+    margin-left: calc(12vw);
+}
+.twitter{
+    margin-right: calc(12vw);
+}
+
+/* work experience */
+.work-experience{
+    display: flex;
+    flex-direction: column;
+}
+.work-box h3{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.work-box{
+    width: 365px;
+    height: 180px;
+    text-align: left;
+    padding: 0 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.green-box{
+    margin-left: 30px;
+    background: #7ac943;
+}
+.blue-box{
+    margin-right: 30px;
+    margin-left: auto;
+    background: #3fa9f5;
+}
+
+/* education */
+.education{
+    background: #f4f1f4;
+    display: flex;
+    flex-direction: column;
+}
+.education-box{
+    width: 440px;
+    height: 210px;
+    text-align: left;
+    padding: 0 25px;
+    margin-bottom: 30px;
+    background: #353541;
+    border-radius: 8px;
+    color: #fff;
+}
+.education-box h3{
+    font-size: 18px;
+    margin-top: 23px;
+}
+.ed-left{
+    margin-left: 3vw;
+    
+}
+.ed-right{
+    margin-right: 3vw;
+    margin-left: auto;
+}
+
+/* Get in touch */
+.get-in-touch{
+    /* display: block;
+    text-align: center; */
+    margin: 0 auto;
+}
+.gtouch{
+    text-align: left;
+    width: 440px;
+    margin: 0 auto;
+}
+.gtouch input{
+    width: 440px;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.gtouch textarea{
+    height: 130px;
+    border-radius: 8px;
+    width: 440px;
+    border: 2px solid black;
+}
+.gtouch label{
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 80px;
+}
+footer p{
+    font-size: 11px;
+    margin-top: -10px;
+}
