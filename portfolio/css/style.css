@@ -51,6 +51,7 @@ body{
     user-select: none;
     height: 55px;
 }
+
 .icon-view {
     display: flex;
     justify-content: space-between;
@@ -174,6 +175,51 @@ main{
     }
     .skills-cont div{
         flex: 50%;
+        padding: 0 50px;
+    }
+    h4.hidden{
+        font-weight: bolder;
+    }
+    .red-line{
+        display: none;
+    }
+    section h2{
+        font-size: 60px;
+        font-weight: bolder;
+    }
+    .pspace{
+        padding: 0 60px;
+    }
+    .grey{
+        color: #aba9a9;
+    }
+    .rline{
+        background: #fb6470;
+        height: 3px;
+        width: 80px;
+        margin-left: calc(50% - 40px);
+        margin-bottom: 2rem;
+    }
+    .no-u{
+        font-weight: 400;
+    }
+}
+@media(min-width: 1200px){
+    .skills-cont{
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .skills-cont div{
+        flex: 25%;
+        /* padding: 0 50px; */
+        justify-content: space-between;
+    }
+    .push{
+        margin-bottom: 47px;
+    }
+    .left-please{
+        margin-left: -60px;
     }
 }
 
@@ -198,12 +244,34 @@ main{
 .twitter{
     margin-right: 12vw;
 }
-@media(min-width: 1200px){
+.lgrey{
+    color: #bcc9ce;
+}
+@media(min-width: 760px){
+    .icons{
+        flex-wrap: nowrap;
+    }
     .codepen{
-        margin-left: 150px;
+        margin-left: 0px;
     }
     .twitter{
-        margin-right: 150px;
+        margin-right: 0px;
+    }
+    .find{
+        background: #889ea8;
+        color: #fff;
+    }
+    .dspace{
+        margin-bottom: 50px;
+    }
+}
+
+@media(min-width: 1200px){
+    .red{
+        margin-right: 20px;
+    }
+    .blue{
+        margin-left: 20px;
     }
 }
 
@@ -226,11 +294,11 @@ main{
     color: #fff;
 }
 .green-box{
-    margin-left: 30px;
+    margin-left: 5vw;
     background: #7ac943;
 }
 .blue-box{
-    margin-right: 30px;
+    margin-right: 5vw;
     margin-left: auto;
     background: #3fa9f5;
 }
