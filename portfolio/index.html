@@ -15,17 +15,40 @@
 </head>
 
 <body>
+    <nav class="site-nav">
+        <ul class="icon-view">
+            <li id="mobile-menu-button">
+                <img src="img/svg/mobile-menu-icon.svg" alt="">
+            </li>
+            <li>
+                <div class="f-right">   
+                    <p class="bold">nic.jefferis@shaw.ca</p> 
+                    <p class="go-up">780 850 0503</p>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <aside id="menu-panel" class="menu-panel">
+        <ul class="mobile-links">
+            <li><a href="#summary">Skills Summary</a></li>
+            <li><a href="#find">Where I Am</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Get In Touch</a></li>
+        </ul>
+    </aside>
+
     <header>
-        <div class="head-row">
+        <!-- <div class="head-row">
             <i class="fas fa-bars f-left"></i>
             <div class="f-right">   
                 <p class="bold">nic.jefferis@shaw.ca</p> 
                 <p class="go-up">780 850 0503</p>
             </div>
-        </div>
+        </div> -->
         
         <img class="selfie" src="img/svg/github-brands.svg" alt="">
-        <!-- <p class="selfie">pic go here</p> -->
         <div class="red-line"></div> 
         <h1 class="name">Nic Jefferis</h1>
         <p class="go-up">#Software Developer | #Web Developer</p>
@@ -39,43 +62,69 @@
         <p style="padding-bottom: 30px;">powered by netlify</p>
     </header>
     <main>
-        <h2>Skills Summary</h1>
-        <div class="red-line"></div> 
-        <div class="skills-cont">
-            <img class="skills" src="img/svg/percentages-95.svg" alt="">
-            <img class="skills" src="img/svg/percentages-100.svg" alt="">
-            <img class="skills" src="img/svg/percentages-85.svg" alt="">
-            <img class="skills" src="img/svg/percentages-90.svg" alt="">
-        </div>
+        <section id="summary">
+            <h2>Skills Summary</h1>
+            <div class="red-line"></div> 
+            <div class="skills-cont">
+                <div>
+                    <h4 class="hidden">Software Development</h4>
+                    <img class="skills" src="img/svg/percentages-95.svg" alt="">
+                    <p class="hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae adipisci nulla minima dolor similique</p>
+                </div>
+                <div>
+                    <h4 class="hidden">Good Looks</h4>
+                    <img class="skills" src="img/svg/percentages-100.svg" alt="">
+                    <p class="hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae adipisci nulla minima dolor similique</p>
+                </div>
+                <div>
+                    <h4 class="hidden">Code Development</h4>
+                    <img class="skills" src="img/svg/percentages-85.svg" alt="">
+                    <p class="hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae adipisci nulla minima dolor similique</p>
+                </div>
+                <div>
+                    <h4 class="hidden">Interface Design</h4>
+                    <img class="skills" src="img/svg/percentages-90.svg" alt="">
+                    <p class="hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae adipisci nulla minima dolor similique</p>
+                </div>
+                
+                <!-- <img class="skills" src="img/svg/percentages-95.svg" alt=""> -->
+                <!-- <img class="skills" src="img/svg/percentages-100.svg" alt=""> -->
+                <!-- <img class="skills" src="img/svg/percentages-85.svg" alt=""> -->
+                <!-- <img class="skills" src="img/svg/percentages-90.svg" alt=""> -->
+            </div>
+        </section>
+        
+        
+        <section id="find">
+            <h2>Where To Find Me</h1>
+            <div class="red-line"></div>
+            <p>something about me blah blah Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae adipisci nulla minima dolor similique, suscipit inventore consequatur facilis vel eius tempora iste?</p>
+            <div class="icons">
+                <div>
+                    <img src="img/svg/github-brands.svg" alt="">
+                    <p>git</p>
+                </div>
+                <div>
+                    <img src="img/svg/slack-hash-brands.svg" alt="">
+                    <p>slack</p>
+                </div>
+                <div>
+                    <img src="img/svg/linkedin-in-brands.svg" alt="">
+                    <p>linkedin</p>
+                </div>
+                <div class="codepen">
+                    <img src="img/svg/codepen-brands.svg" alt="">
+                    <p>codepen</p>
+                </div>
+                <div class="twitter">
+                    <img src="img/svg/twitter-brands.svg" alt="">
+                    <p>twitter</p>
+                </div>
+            </div>
+        </section>
         
 
-        <h2>Where To Find Me</h1>
-        <div class="red-line"></div>
-        <p>something about me blah blah Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae adipisci nulla minima dolor similique, suscipit inventore consequatur facilis vel eius tempora iste?</p>
-        <div class="icons">
-            <div>
-                <img src="img/svg/github-brands.svg" alt="">
-                <p>git</p>
-            </div>
-            <div>
-                <img src="img/svg/slack-hash-brands.svg" alt="">
-                <p>slack</p>
-            </div>
-            <div>
-                <img src="img/svg/linkedin-in-brands.svg" alt="">
-                <p>linkedin</p>
-            </div>
-            <div class="codepen">
-                <img src="img/svg/codepen-brands.svg" alt="">
-                <p>codepen</p>
-            </div>
-            <div class="twitter">
-                <img src="img/svg/twitter-brands.svg" alt="">
-                <p>twitter</p>
-            </div>
-        </div>
-
-        <section class="work-experience">
+        <section id="work" class="work-experience">
             <h2>Work Experienced</h1>
             <div class="red-line"></div>
             <p>something about me blah blah Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae adipisci nulla minima dolor similique, suscipit inventore consequatur facilis vel eius tempora iste?</p>
@@ -101,7 +150,7 @@
             </div>
         </section>
 
-        <section class="education">
+        <section id="education" class="education">
             <h2>Education</h1>
             <div class="red-line"></div>
             <p>Take the time and tell them more about yourself. Where do find you and what your goal is? Sodales sem est, in scelerisque felis scelerisque in. Aenean faucibus mollis risus. Praesent sit amet erat eget eros.</p>
@@ -123,7 +172,7 @@
             </div>
         </section>
 
-        <section style="margin-top: 40px;" class="get-in-touch">
+        <section id="contact" style="margin-top: 40px;" class="get-in-touch">
             <h2>Get In Touch</h1>
             <div class="red-line"></div>
             <form action="" class="gtouch">
@@ -142,7 +191,9 @@
         <p>nic.jefferis@shaw.ca</p>
         <p>780 850 0503</p>
     </footer>
-    <script src="js/index.js"></script>
+    <script async src="js/libs/gsap/TweenMax.min.js"></script>
+    <script async src="js/libs/gsap/plugins/ScrollToPlugin.min.js"></script>
+    <script async src="js/index.js"></script>
 </body>
 
 </html>

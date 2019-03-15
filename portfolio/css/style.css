@@ -37,9 +37,48 @@ body{
     margin: 0 auto;
 }
 
+/* nav shit */
+.site-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 101;
+    background: #353541;
+    /* box-shadow: 0 0 8px 0 rgb(227, 227, 227); */
+    /* border: 1px solid rgb(227, 227, 227); */
+    padding: 0.25rem 0.5rem;
+    user-select: none;
+    height: 55px;
+}
+.icon-view {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.menu-panel {
+    position: fixed;
+    display: block;
+    width: 100%;
+    top: -20rem;
+    left: 0;
+    padding: 2rem 0;
+    background-color: black;
+    z-index: 5;
+}
+ 
+/*  Menu Panel Option Styles */
+.mobile-links {
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: flex-end;
+}
+
+
 /* header stuff */
 header{
-    /* height: 600px; */
+    margin-top: 55px;
     background: #353541;
     color: #fff;
     text-align: center;
@@ -50,14 +89,13 @@ header{
 }
 .f-right{
     text-align: center;
-    margin: 20px 20px 0 0 ;
 }
 .head-row{
     display: flex;
     justify-content: space-between;
 }
 .go-up{
-    margin-top: -20px;
+    margin-top: -24px;
 }
 .selfie{
     margin-bottom: 20px;
@@ -122,6 +160,21 @@ main{
     height: 230px;
     padding-bottom: 25px;
     margin: 0 auto;
+}
+.hidden{
+    display: none;
+}
+@media(min-width: 760px){
+    .hidden{
+        display: block
+    }
+    .skills-cont{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .skills-cont div{
+        flex: 50%;
+    }
 }
 
 /* Find */
