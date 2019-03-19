@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
         if (!isOpen) {
             TweenMax.to(menu, 0.8, { top: "-20rem", ease: Power4.easeOut });
         } else {
-            TweenMax.to(menu, 0.5, { top: "25px", ease: Power4.easeOut });
+            TweenMax.to(menu, 0.5, { top: "40px", ease: Power4.easeOut });
         }
     }
 
