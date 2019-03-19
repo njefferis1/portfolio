@@ -57,7 +57,19 @@ body{
     justify-content: space-between;
     color: #fff;
 }
-.menu-panel {
+.icon-view svg{
+    margin-top: 7px;
+    width: 30px;
+ }
+/* Icon Styles */
+.icon-view {
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  /* Menu Panel Styles */
+ 
+  .menu-panel {
     position: fixed;
     display: block;
     width: 100%;
@@ -66,20 +78,30 @@ body{
     padding: 2rem 0;
     background-color: black;
     z-index: 5;
-}
+  }
  
-/*  Menu Panel Option Styles */
-.mobile-links {
+  /*  Menu Panel Option Styles */
+  .mobile-links {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: flex-end;
-}
-.mobile-link {
+  }
+ 
+ 
+  .mobile-link {
     padding: 0.5rem 0;
     align-self: center;
-}
-
+  }
+ 
+  .mobile-link a,
+  .mobile-link a:link,
+  .mobile-link a:visited,
+  .mobile-link a:hover,
+  .mobile-link a:active {
+    color: white;
+    text-decoration: none;
+  }
 
 /* header stuff */
 header{
