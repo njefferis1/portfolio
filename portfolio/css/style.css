@@ -70,10 +70,14 @@ body{
  
 /*  Menu Panel Option Styles */
 .mobile-links {
-display: flex;
-flex-direction: column;
-align-content: center;
-justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+}
+.mobile-link {
+    padding: 0.5rem 0;
+    align-self: center;
 }
 
 
@@ -101,6 +105,7 @@ header{
 .selfie{
     margin-bottom: 20px;
     width: 100px;
+    border-radius: 50%;
 }
 .red-line{
     background: #fb6470;

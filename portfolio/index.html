@@ -18,7 +18,9 @@
     <nav class="site-nav">
         <ul class="icon-view">
             <li id="mobile-menu-button">
-                <img src="img/svg/mobile-menu-icon.svg" alt="">
+                <img src="img/svg/mobile-menu-icon.svg" alt="menu button">
+                <img src="img/svg/menu.svg" alt="menu button 2">
+                <!-- <img src="img/jpg/me.jpg" alt=""> -->
             </li>
             <li>
                 <div class="f-right">   
@@ -28,16 +30,26 @@
             </li>
         </ul>
     </nav>
-
-    <aside id="menu-panel" class="menu-panel">
+    
+    <aside id="menu-panel mobile-sub-menu" class="menu-panel">
         <ul class="mobile-links">
-            <li><a href="#summary">Skills Summary</a></li>
-            <li><a href="#find">Where I Am</a></li>
-            <li><a href="#work">Work Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Get In Touch</a></li>
+            <li class="mobile-link"><a href="#summary">Skills Summary</a></li>
+            <li class="mobile-link"><a href="#find">Where I Am</a></li>
+            <li class="mobile-link"><a href="#work">Work Experience</a></li>
+            <li class="mobile-link"><a href="#education">Education</a></li>
+            <li class="mobile-link"><a href="#contact">Get In Touch</a></li>
         </ul>
     </aside>
+
+    <!-- <aside id="mobile-sub-menu" class="mobile-sub-menu">
+        <ul class="mobile-links">
+            <li class="mobile-link"><a href="#summary">Skills Summary</a></li>
+            <li class="mobile-link"><a href="#find">Where I Am</a></li>
+            <li class="mobile-link"><a href="#work">Work Experience</a></li>
+            <li class="mobile-link"><a href="#education">Education</a></li>
+            <li class="mobile-link"><a href="#contact">Get In Touch</a></li>
+        </ul>
+    </aside> -->
 
     <header>
         <!-- <div class="head-row">
@@ -48,7 +60,8 @@
             </div>
         </div> -->
         
-        <img class="selfie" src="img/svg/github-brands.svg" alt="">
+        <!-- <img class="selfie" src="img/svg/github-brands.svg" alt=""> -->
+        <img src="img/jpg/me.jpg" alt="" class="selfie">
         <div class="red-line"></div> 
         <h1 class="name">Nic Jefferis</h1>
         <p class="go-up">#Software Developer | #Web Developer</p>
@@ -193,6 +206,7 @@
         <p>nic.jefferis@shaw.ca</p>
         <p>780 850 0503</p>
     </footer>
+    <script async src="js/menu/menu.js"></script>
     <script async src="js/libs/gsap/TweenMax.min.js"></script>
     <script async src="js/libs/gsap/plugins/ScrollToPlugin.min.js"></script>
     <script async src="js/index.js"></script>
